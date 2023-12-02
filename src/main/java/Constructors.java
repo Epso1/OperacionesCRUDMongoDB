@@ -15,7 +15,6 @@ public class Constructors {
     public Constructors() {
     }
 
-
     public String getConstructorRef() {
         return constructorRef;
     }
@@ -48,7 +47,6 @@ public class Constructors {
         this.url = url;
     }
 
-    // Puedes anular el método toString() para obtener una representación de cadena legible
     @Override
     public String toString() {
         return "Constructors{" +

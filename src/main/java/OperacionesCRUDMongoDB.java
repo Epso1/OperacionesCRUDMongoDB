@@ -7,10 +7,6 @@ import static com.mongodb.client.model.Filters.eq;
 
 public class OperacionesCRUDMongoDB {
 
-
-
-
-
     // CrearPiloto(), que reciba un objeto Piloto y lo añada a la base de datos.
     public static void crearPiloto(MongoCollection<Driver> collection, Driver driver) {
         collection.insertOne(driver);
