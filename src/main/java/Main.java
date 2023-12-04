@@ -90,9 +90,9 @@ public class Main {
             // MostrarPilotosConEdadMayorQue(), que reciba como parámetro un entero y muestre el
             //listado de pilotos con edad mayor o igual que ese entero en el inicio de la temporada (año
             //2006) ordenados de mayor a menor edad.
-            System.out.println("Mostrando todos los pilotos de la base de datos con edad >= 20"+
+            System.out.println("Mostrando todos los pilotos de la base de datos con edad >= 30"+
                     " ordenados de mayor a menor edad...");
-            OperacionesCRUDMongoDB.mostrarPilotosConEdadMayorQue(collection, 20);
+            OperacionesCRUDMongoDB.mostrarPilotosConEdadMayorQue(collection, 30);
             System.out.println();
         }
     }
